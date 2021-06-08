@@ -27,6 +27,7 @@ p {
   margin-bottom: 10rem;
   text-align: left;
   font-family: "Lexend Deca", sans-serif;
+  line-height: 2em;
 }
 
 h1 {
@@ -36,6 +37,7 @@ h1 {
   text-align: left;
   font-family: "Big Shoulders Display", sans-serif;
   font-size: 3rem;
+  text-transform: uppercase;
 }
 
 /* VARIABLES */
@@ -79,8 +81,8 @@ h1 {
 .container-box {
   display: flex;
   flex-direction: column;
-  min-height: 45rem;
-  max-width: 25rem;
+  min-height: 40rem;
+  max-width: 30rem;
   padding: 0 3rem;
 }
 
@@ -109,7 +111,7 @@ img {
 
 .btn {
   margin-bottom: 4rem;
-  padding: 1rem 1.5rem;
+  padding: 1.5rem 2.5rem;
   outline: none;
   cursor: pointer;
   border: 1px solid transparent;
@@ -187,6 +189,7 @@ img {
 
     p {
         margin-bottom: 5rem;
+        line-height: 2em;
     }
 
     h1 {
